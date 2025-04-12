@@ -6,13 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        We're sorry to hear you have a problem. Can you help us solve it by providing the following details.
+        We're sorry to hear you have a problem. Can you help us solve it by providing the following details.BasicWnd
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: What did you expect to happen?
-      placeholder: I cannot currently do X thing because when I do, it breaks X thing.
+      placeholder: I cannot currently do X thing because when I do, it breaks X thing.if bLen(sys.argv)==1:
+    sys.exit('Usage: f.py ip port(0=random) bytes(65500) length(0=forever)')
     validations:
       required: true
   - type: textarea
